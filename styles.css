@@ -10,12 +10,12 @@
     --text: #0f172a;
     --text-secondary: #475569;
     --muted: #64748b;
-    --accent: #059669;
-    --accent-light: #10b981;
-    --accent-dark: #047857;
-    --accent-50: #ecfdf5;
-    --accent-100: #d1fae5;
-    --accent-600: #059669;
+    --accent: #7B01F7;
+    --accent-light: #9B3AFF;
+    --accent-dark: #5A00C0;
+    --accent-50: #f5eeff;
+    --accent-100: #e8d5ff;
+    --accent-600: #7B01F7;
     --wa: #25d366;
     --wa-dark: #128c7e;
     --border: #e2e8f0;
@@ -188,12 +188,12 @@ a { text-decoration: none; color: inherit; }
 .btn-primary {
     background: var(--accent);
     color: #fff;
-    box-shadow: 0 1px 3px rgba(5,150,105,.3);
+    box-shadow: 0 1px 3px rgba(123,1,247,.3);
 }
 
 .btn-primary:hover {
     background: var(--accent-dark);
-    box-shadow: 0 4px 12px rgba(5,150,105,.3);
+    box-shadow: 0 4px 12px rgba(123,1,247,.3);
     transform: translateY(-1px);
 }
 
@@ -219,7 +219,7 @@ a { text-decoration: none; color: inherit; }
 
 .btn-nav:hover {
     background: var(--accent-dark);
-    box-shadow: 0 2px 8px rgba(5,150,105,.25);
+    box-shadow: 0 2px 8px rgba(123,1,247,.25);
     transform: translateY(-1px);
 }
 
@@ -247,7 +247,7 @@ a { text-decoration: none; color: inherit; }
     position: relative;
     padding: 8rem 0 5rem;
     overflow: hidden;
-    background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 50%, #ecfdf5 100%);
+    background: linear-gradient(135deg, #f5eeff 0%, #ffffff 50%, #f5eeff 100%);
 }
 
 .hero-bg {
@@ -267,7 +267,7 @@ a { text-decoration: none; color: inherit; }
 .hero-shape-1 {
     width: 500px;
     height: 500px;
-    background: rgba(16, 185, 129, .12);
+    background: rgba(123, 1, 247, .12);
     top: -150px;
     right: -100px;
 }
@@ -275,7 +275,7 @@ a { text-decoration: none; color: inherit; }
 .hero-shape-2 {
     width: 350px;
     height: 350px;
-    background: rgba(5, 150, 105, .08);
+    background: rgba(123, 1, 247, .08);
     bottom: -100px;
     left: -50px;
 }
@@ -283,7 +283,7 @@ a { text-decoration: none; color: inherit; }
 .hero-shape-3 {
     width: 200px;
     height: 200px;
-    background: rgba(16, 185, 129, .1);
+    background: rgba(123, 1, 247, .1);
     top: 50%;
     left: 30%;
 }
