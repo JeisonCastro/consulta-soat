@@ -10,6 +10,18 @@
 
         gtag('config', 'AW-18399797646');
     </script>
+    <!-- Event snippet for Contacto (1) conversion page -->
+    <script>
+        document.addEventListener('click', function (e) {
+            if (e.target.closest('.js-wa, .contact-email')) {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-18399797646/m1xSCMSCxOQcEI7D2sVE',
+                    'value': 1.0,
+                    'currency': 'COP'
+                });
+            }
+        });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta Soat - Tu SOAT 100% Oficial | Soat para Carros y Motos</title>
